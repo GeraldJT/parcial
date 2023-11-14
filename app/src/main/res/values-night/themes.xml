@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Parcial" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/fondo</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.Local01" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/fondo</item>
+
+    </style>
+
+    <style name="Theme.Localización" parent="Base.Theme.Parcial" />
+
+    <style name="SplashTheme" parent="Theme.Local01">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>

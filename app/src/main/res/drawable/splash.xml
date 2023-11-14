@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:andorid="http://schemas.android.com/apk/res/android">
+    <item andorid:drawable="@color/fondo"/>
+    <item>
+        <bitmap andorid:src="@drawable/framelocal"
+            andorid:gravity="center"/>
+    </item>
+
+</layer-list>

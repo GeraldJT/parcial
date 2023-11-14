@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Parcial" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/fondo</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="Theme.Parcial" parent="Base.Theme.Parcial" />
+
+    <style name="SplashTheme" parent="Base.Theme.Parcial">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>
